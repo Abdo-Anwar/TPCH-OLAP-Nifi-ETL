@@ -1,0 +1,32 @@
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Generated output data
+parquet-output/
+
+# Logs
+logs.txt
+*.log
+
+# Downloaded drivers & extensions (if not your custom code)
+nifi-drivers/
+nifi-extensions/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# If tpcb-dbgen produces compiled binaries:
+tpcb-dbgen/*.o
+tpcb-dbgen/dbgen
+tpcb-dbgen/qgen
+
+# Environment variables (if you have any)
+.env
